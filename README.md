@@ -1,4 +1,4 @@
-# QuickIndex — A Python script to quickly index your pages in Google Search
+# A Python script to quickly index your pages in Google Search
 
 Made by [QuickIndex](https://quickindex.co) — A service to automatically index 1000s of pages in Google Search.
 
