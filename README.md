@@ -18,6 +18,8 @@ pip install -r requirements.txt
 
 Save the service account key to a file named `credentials.json` in the project folder.
 
+This service account will allow you to index 200 pages per day (this is Google API limitation). 
+
 4. Add the service account to the project and give it the `Owner`
    role: https://developers.google.com/search/apis/indexing-api/v3/prereqs#verify-site
 
