@@ -1,11 +1,10 @@
 # A Python script to quickly index your pages in Google Search
 
-Made by [QuickIndex](https://quickindex.co) — A service to automatically index 1000s of pages in Google Search.
+Made by [QuickSEO](https://quickseo.io) — analytics platform for SEO based on Google Search Console data. It is easy to use tool that helps you find keywords opportunities and generate AI content for them.
 
 ## Introduction
 
-This is a Python script that uses the Google Indexing API to index your pages in Google Search. It's a simple script that you can run on your computer to index up to 200 pages per day in Google Search. The detailed description of the script is available in [here](https://quickindex.co/tools/python-indexing).
-
+This is a Python script that uses the Google Indexing API to index your pages in Google Search. It's a simple script that you can run on your computer to index up to 200 pages per day in Google Search. The detailed description of the script is available in [here](https://quickseo.io/tools/python-indexing).
 
 
 ## Usage
