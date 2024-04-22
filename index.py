@@ -23,7 +23,7 @@ for url in urls:
 
 # check if the URL exists
 DELETED_URLS = 0
-for url in existing_urls:
+for url in list(existing_urls):
     if url not in urls:
         DELETED_URLS += 1
         del existing_urls[url]
