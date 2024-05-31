@@ -26,8 +26,9 @@ Save the service account key to a file named `credentials.json` in the project f
 4. Add the service account to the Google Search Console project and give it the `Owner`
 role: [https://developers.google.com/search/apis/indexing-api/v3/prereqs#verify-site](https://developers.google.com/search/apis/indexing-api/v3/prereqs#verify-site)
 
+5. You may need to enable Web Search Indexing API. Visit https://console.cloud.google.com/apis/api/indexing.googleapis.com and click "ENABLE".
 
-5. Change the sitemap URL in the `index.py` file:
+6. Change the sitemap URL in the `index.py` file:
 
 ```python
 website_sitemap = 'https://example.com/sitemap.xml'
@@ -35,7 +36,7 @@ website_sitemap = 'https://example.com/sitemap.xml'
 
 The script will index all the pages from the sitemap. It will also find all the sitemaps in the sitemap index file and index all the pages from them.
 
-6. Run the script using the following command:
+7. Run the script using the following command:
 
 ```shell
 python index.py
